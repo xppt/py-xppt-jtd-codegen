@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "xppt-jtd-codegen"
+version = "0.4.1.1"
+description = "json-typedef-codegen python wrapper"
+authors = ["xppt <21246102+xppt@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+xppt-jtd-codegen = "xppt_jtd_codegen:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
